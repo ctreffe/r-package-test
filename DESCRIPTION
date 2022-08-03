@@ -1,0 +1,16 @@
+Package: r-package-test
+Title: R Package Test
+Version: 0.0.0.9000
+Authors@R: 
+    person("Christian", "Treffenstaedt", , "treffenstaedt@psych.uni-goettingen.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5394-0379"))
+Description: This package only serves testing purposes.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports:
+    dplyr (>= 1.0.7),
+    magrittr,
+    tibble (>= 3.1.5),
+    tidyr (>= 1.1.4)
